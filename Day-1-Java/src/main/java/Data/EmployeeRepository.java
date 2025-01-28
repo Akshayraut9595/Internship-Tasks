@@ -17,13 +17,13 @@ public class EmployeeRepository {
         employeesArray = new Employee[size];
         this.index = 0;
         this.size = size;
-        logger.info("Employee Repository created with size", size);
+        logger.info("Employee Repository created with size {}", size);
     }
 
 //    get all employee
-    public Employee[] getEmployeesArray() {
-        logger.debug("Returning all employees");
-        return employeesArray;
+    public ArrayList<Employee> getEmployeesArray() {
+        logger.info("Returning all employees");
+        return new ArrayList<Employee>(Arrays.asList(employeesArray));
     }
 
 //  adding employee
@@ -37,7 +37,7 @@ public class EmployeeRepository {
             return;
         }
         employeesArray[index++] = employee;
-        logger.info("Added new employee:", employee);
+        logger.info("Added new employee with id {}", employee.getId());
     }
 
 //    retrieving employee by id
@@ -54,22 +54,30 @@ public class EmployeeRepository {
         return null;
     }
 
-//    retrieving employee by name or department
-    public ArrayList<Employee> getEmployeeInfo(String name, String department) {
+//    retrieving employee by name
+    public ArrayList<Employee> getEmployeeByName(String name) {
         ArrayList<Employee> employees = new ArrayList<>();
-        if (!name.isEmpty() && !department.isEmpty()) {
-            for (Employee employee : employeesArray) {
-                if (employee!=null && employee.getName().equals(name) && employee.getDepartment().equals(department)) {
-                    employees.add(employee);
-                }
-            }
-        } else if (!name.isEmpty()) {
+        if (!name.isEmpty()) {
             for (Employee employee : employeesArray) {
                 if (employee!=null && employee.getName().equals(name)) {
                     employees.add(employee);
                 }
             }
-        } else if (!department.isEmpty()) {
+        }
+
+        if(employees.isEmpty()){
+            logger.warn("No employee found with matching name");
+        }
+        else{
+            logger.info("Employee found with matching name");
+        }
+        return employees;
+    }
+
+    //    retrieving employee by name
+    public ArrayList<Employee> getEmployeeByDepartment(String department) {
+        ArrayList<Employee> employees = new ArrayList<>();
+        if (!department.isEmpty()) {
             for (Employee employee : employeesArray) {
                 if (employee!=null && employee.getDepartment().equals(department)) {
                     employees.add(employee);
@@ -78,15 +86,34 @@ public class EmployeeRepository {
         }
 
         if(employees.isEmpty()){
-            logger.warn("No employee found with matching string or department");
+            logger.warn("No employee found with matching name");
         }
         else{
-            logger.info("Employee found with matching String or Department");
+            logger.info("Employee found with matching name");
         }
         return employees;
     }
 
-//    updating employee id
+    //    retrieving employee by age
+    public ArrayList<Employee> getEmployeeByAge(int age) {
+        ArrayList<Employee> employees = new ArrayList<>();
+        for (Employee employee : employeesArray) {
+            if (employee!=null && employee.getAge() == age) {
+                employees.add(employee);
+            }
+        }
+
+        if(employees.isEmpty()){
+            logger.warn("No employee found with matching age");
+        }
+        else{
+            logger.info("Employee found with matching age");
+        }
+        return employees;
+    }
+
+
+    //    updating employee id
     public String updateEmployeeId(int prevId, int newId){
         for(Employee employee:employeesArray) {
             if (employee!=null && employee.getId() == prevId) {

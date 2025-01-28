@@ -1,82 +1,58 @@
-2025-01-28 14:41:52 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:41:52 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:45:09 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:45:09 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:49:51 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:49:51 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:50:09 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:50:09 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:52:41 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:52:42 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:53:38 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:53:38 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:53:47 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:53:47 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:54:59 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:54:59 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:56:11 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:56:11 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:56:17 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:56:17 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:57:57 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:57:57 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:58:39 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:58:39 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:59:00 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:59:00 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 14:59:26 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 14:59:26 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:00:07 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:00:07 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:01:42 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:01:42 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:02:18 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:02:18 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:05:04 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:05:04 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:10:17 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:10:17 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:12:44 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:12:44 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:17:14 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:17:14 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:20:41 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:20:41 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:21:46 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:21:46 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:23:12 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:23:12 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:24:06 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:24:06 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:27:29 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:27:29 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:27:29 [main] WARN  EmployeeRepository - Employee found with given id
-2025-01-28 15:28:55 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:28:55 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:28:55 [main] WARN  EmployeeRepository - Employee found with given id
-2025-01-28 15:29:24 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:29:24 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:29:24 [main] WARN  EmployeeRepository - Employee found with given id
-2025-01-28 15:29:44 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:29:44 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:29:44 [main] WARN  EmployeeRepository - Employee found with given id
-2025-01-28 15:31:37 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:31:37 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:31:37 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:40:03 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:40:03 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:40:03 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:40:03 [main] INFO  EmployeeRepository - Employee found with matching String or Department
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Employee found with matching String or Department
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Employee id updated
-2025-01-28 15:43:05 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee Repository created with size
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Added new employee:
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee found with matching String or Department
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee id updated
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee with give id found
-2025-01-28 15:44:59 [main] INFO  EmployeeRepository - Employee department updated
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee Repository created with size 10
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 121
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 122
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 123
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 124
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 125
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 126
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 127
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 128
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 129
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Added new employee with id 130
+2025-01-28 17:43:16 [main] ERROR EmployeeRepository - Employee size is over
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee with give id found
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee found with matching age
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee id updated
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Employee age updated
+2025-01-28 17:43:16 [main] INFO  EmployeeRepository - Name updated successfully
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee Repository created with size 10
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 121
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 122
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 123
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 124
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 125
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 126
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 127
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 128
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 129
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Added new employee with id 130
+2025-01-28 17:54:18 [main] ERROR EmployeeRepository - Employee size is over
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee with give id found
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee found with matching age
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee id updated
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Employee age updated
+2025-01-28 17:54:18 [main] INFO  EmployeeRepository - Name updated successfully
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee Repository created with size 10
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 121
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 122
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 123
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 124
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 125
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 126
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 127
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 128
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 129
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Added new employee with id 130
+2025-01-28 17:56:05 [main] ERROR EmployeeRepository - Employee size is over
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee with give id found
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee found with matching name
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee found with matching age
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee id updated
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Employee age updated
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Name updated successfully
+2025-01-28 17:56:05 [main] INFO  EmployeeRepository - Returning all employees
