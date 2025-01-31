@@ -40,7 +40,7 @@ public class APIResponseParser {
         return book;
     }
 
-    public static String parse(String response, String startRule, String endRule) {
+    private static String parse(String response, String startRule, String endRule) {
         int startingIndex = response.indexOf(startRule);
         int endingIndex = response.indexOf(endRule);
         String data = response.substring(startingIndex+startRule.length(), endingIndex);
