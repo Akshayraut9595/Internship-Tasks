@@ -1,0 +1,238 @@
+.screen-container {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  right: 7%;
+  bottom: 5%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../assets/container-bg.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  color: white;
+  font-size: 24px;
+  padding: 2%;
+  width: 87vw;
+  height: 90vh;
+}
+
+/* Add the backdrop effect */
+.screen-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the color and transparency for your effect */
+  border-radius: 20px;
+  z-index: 0; /* Ensure it stays behind the content */
+}
+
+.screen-container > * {
+  position: relative;
+  z-index: 1; /* Ensure content stays above the backdrop */
+}
+
+
+.screen-container h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  align-content: center;
+  width: 100%;
+  padding: 0px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dots-icon {
+  width: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  font-size: 15px;
+  position: absolute;
+  right: -10px;
+  top: 45px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 5px;
+  list-style: none;
+}
+
+.dropdown-menu li:hover {
+  background: lightgray;
+}
+
+/* add task */
+.add-task {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: rgb(84, 74, 64);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: auto;
+}
+
+.add-task input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  background: transparent;
+  font-size: 25px;
+  flex: 1; 
+  min-width: 0; 
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.add-task input[type="date"] {
+  width: 190px; 
+  flex: unset; 
+  font-size: 25px;
+  cursor: pointer;
+  padding: 5px; 
+  text-align: center;
+  color: black;
+}
+
+.add-task input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); 
+  cursor: pointer;
+}
+
+.plusIcon,
+deleteIcon,
+checkBoxIcon:hover {
+  cursor: pointer;
+}
+
+.tasks-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tasks-list {
+  max-height: 395px;
+  overflow-y: auto;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tasks-list li {
+  list-style: none; 
+  margin-bottom: 8px; 
+}
+
+.scroll-icon {
+  margin-top: 10px; 
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
+
+
+* {
+  scrollbar-width: none; 
+}
+
+
+.scroll-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+
+*:focus {
+  outline: none !important;
+}
+
+.bar {
+  margin-bottom: 10px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  color: black;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.popup button:hover {
+  background-color: #45a049;
+}
